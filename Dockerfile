@@ -1,4 +1,4 @@
-FROM python:3.12-slim-bookworm AS build
+FROM alibaba-cloud-linux-3-registry.cn-hangzhou.cr.aliyuncs.com/alinux3/python:3.11.1@sha256:d95a3dacf1688ea112f6a23e97e219c4efa060774bd57ad93a4f31f1d840d33e AS build
 
 # C4ai version
 ARG C4AI_VER=0.6.0
